@@ -31,3 +31,18 @@
     bottom: 21px;
 }
 
+.screen-header__icon__more {
+    position: relative;
+}
+
+.screen-header__icon__more__dot{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    position: absolute;
+    right: -4px;
+    bottom: 21px;
+}
+
