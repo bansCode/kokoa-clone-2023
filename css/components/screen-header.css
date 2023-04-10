@@ -12,6 +12,41 @@
     font-weight: 600;
 }
 
+@keyframes wiggleJumpMusic {
+    25% {
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.screen-header__icon .fa-music:hover{
+    animation: wiggleJumpMusic 1s linear infinite;
+}
+
+@keyframes magnifySearch {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.screen-header__icon .fa-search:hover {
+    animation: magnifySearch 1s linear infinite;
+}
+
 .screen-header__icon span{
     margin-left: 25px;
 }
