@@ -1,3 +1,3 @@
-# Kokoa Clone 2023 Update
+# Kokoa Clone 2023
 
-HTML and CSS are so much fun!
+This is a clone coding of Kakao Talk, which I call Kokoa Talk.
